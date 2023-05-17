@@ -1,0 +1,53 @@
+<html>
+
+<style>
+body{
+background-color: black;
+background-image: url("78.png");
+background-repeat: no-repeat;
+color: white;
+font-family: courier new;
+
+}
+#oh{
+  background-color: black; 
+  border: 2px;
+  border-color: white;
+  color: grey;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  position: absolute;
+  left: 320px;
+  top: 350px;
+}
+#oh:hover {
+box-shadow: 0 0 10px 2px;
+color: green;
+}
+.meow{
+position: absolute;
+left: 300px;
+top: 100px;
+color: hsl(0, 61%, 26%);
+}
+.meow:hover{
+color: yellow;
+}
+</style>
+<script>
+function search()
+{
+ window.location.href = "next.html";
+}
+</script>
+<title>Let's Play!</title>
+
+
+<body>
+<a href="https://www.youtube.com/watch?v=DOY9toOkDxc" class = "meow" target="_blank">start music</a>
+<input id = "oh" type = "button" value = "Yes" onclick = "search()">
+</body>
+</html>
